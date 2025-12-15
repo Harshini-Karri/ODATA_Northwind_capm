@@ -1,0 +1,4 @@
+ID,createdAt,createdBy,modifiedAt,modifiedBy,product,quantity,price,orderDate,status,paymentMethod,customer_ID
+1001,2025-01-05T00:00:00Z,admin,2025-01-05T00:00:00Z,admin,Laptop,1,1200.00,2025-01-05,Shipped,Credit Card,1
+1002,2025-01-06T00:00:00Z,admin,2025-01-06T00:00:00Z,admin,Phone,2,800.00,2025-01-06,Processing,UPI,3
+1003,2025-01-07T00:00:00Z,admin,2025-01-07T00:00:00Z,admin,Headphones,3,150.00,2025-01-07,Delivered,Cash,2

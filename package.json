@@ -1,0 +1,46 @@
+{
+  "name": "cuorder",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "dependencies": {
+    "@sap/cds": "^9",
+    "express": "^4",
+    "@sap-cloud-sdk/connectivity": "^4",
+    "@sap-cloud-sdk/http-client": "^4",
+    "@sap-cloud-sdk/resilience": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true,
+  "cds": {
+    "requires": {
+      "Z301772_ODATA_SRV": {
+        "kind": "odata-v2",
+        "model": "srv/external/Z301772_ODATA_SRV",
+        
+          "credentials": {
+            "destination": "S4H",
+            "path": "/sap/opu/odata/sap/Z301772_ODATA_SRV"
+          }
+        ,
+        "csrf": true,
+        "csrfInBatch": true
+      },
+      "ZODATA_EMP_SRV": {
+        "kind": "odata-v2",
+        "model": "srv/external/ZODATA_EMP_SRV",
+          "credentials": {
+            "destination": "S4H",
+            "path": "/sap/opu/odata/sap/ZODATA_EMP_SRV"
+        
+        },
+        "csrf": true,
+        "csrfInBatch": true
+      }
+    }
+  }
+}

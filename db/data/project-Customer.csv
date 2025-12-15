@@ -1,0 +1,5 @@
+ID,createdAt,createdBy,modifiedAt,modifiedBy,name,email,phone,city,country,isActive
+1,2025-01-01T00:00:00Z,admin,2025-01-01T00:00:00Z,admin,John Doe,john@example.com,1234567890,New York,USA,true
+2,2025-01-02T00:00:00Z,admin,2025-01-02T00:00:00Z,admin,Jane Smith,jane@example.com,9876543210,London,UK,true
+3,2025-01-03T00:00:00Z,admin,2025-01-03T00:00:00Z,admin,Ravi Kumar,ravi@example.com,9988776655,Hyderabad,India,true
+
