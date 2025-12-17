@@ -3,7 +3,7 @@ const axios = require("axios");
  
 module.exports = cds.service.impl(async function () {
  
-  this.on("READ", "Customers", async () => {
+  this.on("READ", "Customersnorthwind", async () => {
  
     const url = "https://services.odata.org/northwind/northwind.svc/Customers?$format=json";
  
